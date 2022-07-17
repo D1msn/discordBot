@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "D1msn <flash.volkov@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^13.9.0"
+    "@discordjs/rest": "^0.5.0",
+    "discord.js": "^13.9.0",
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.19"
   },
   "devDependencies": {
     "eslint": "^8.20.0",
