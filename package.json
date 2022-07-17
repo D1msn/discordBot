@@ -1,0 +1,20 @@
+{
+  "name": "discord-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "D1msn <flash.volkov@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "eslint-config-metarhia": "^8.1.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
